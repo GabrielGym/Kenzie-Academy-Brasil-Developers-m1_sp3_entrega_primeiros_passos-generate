@@ -93,6 +93,45 @@
 // };
 
 
-// Exercicio 7 //
+// Exercicio 7 completo //
 
 
+// let dolar = parseFloat(prompt("Digite o valor em Dólar"));
+// let cotacaoDolar = parseFloat(prompt("Digite o valor da cotação atual"));
+// let convercaoReal = dolar * cotacaoDolar;
+
+// alert(`${new Intl.NumberFormat("en-US", {style: "currency", currency: "USD"}).format(dolar)
+//         } é equivalente a ${new Intl.NumberFormat("pt-br", {style: "currency", currency: "BRL"}).format(convercaoReal)
+//         } tendo ${cotacaoDolar} como cotação.`);
+
+
+// Execicio 8 incompleto nao entendi muito bem //
+
+
+// let tipo1 = 50
+// let tipo2 = 100
+// let tipo3 = 150
+// let tipo4 = 250
+// let acre = 1
+// let escolhaDetipo = parseInt(prompt("Escolha um tipo de 1 a 4."))
+// let escolhaEAcre = parseInt(prompt("Escolha a quantidade de acre."))
+
+// if (escolhaDetipo === 1) {
+//     return tipo1
+// } else if (escolhaDetipo === 2) {
+//     return tipo2
+// } else if (escolhaDetipo === 3) {
+//     return tipo3
+// } else if (escolhaDetipo === 4) {
+//     return tipo4
+// } else {
+//     alert(`tipo de praga inválida escolha um numero de 1 a 4!`)
+// }
+
+// if (escolhaEAcre >= 1000){
+//     return escolhaEAcre * 95 / 100
+// }
+
+// alert(`O valor ser pago é de: ${escolhaDetipo * escolhaEAcre}`)
+
+// Exercicio 9 //
