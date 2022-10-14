@@ -1,6 +1,6 @@
 // Exercicio 1 //
 
-
+/* 
 let numeroInteiro1 = parseInt(prompt("Digite um numero inteiro"));
 let numeroInteiro2 = parseInt(prompt("Digite outro numero inteiro"));
 let diferencaEntreOsNumeros = numeroInteiro1 - numeroInteiro2;
@@ -27,12 +27,14 @@ if (numero1 > numero2) {
 };
 
 
-// Exercicio 3 incompleto nao aparece o valor correto //
+// Exercicio 3 //
+
 
 let salarioTrabalhador = parseFloat(prompt("Digite o salario do trabalhador"));
 let prestacaoEmprestimo = parseFloat(prompt("Digite o valor da prestação do empréstimo"));
+let porcentagem = salarioTrabalhador * prestacaoEmprestimo  / 100 / 100
 
-if (prestacaoEmprestimo == 30% salarioTrabalhador) {
+if (porcentagem > 30) {
     alert(`Empréstimo não concedido`)
 } else {
     alert(`Empréstimo concedido`)
@@ -40,6 +42,7 @@ if (prestacaoEmprestimo == 30% salarioTrabalhador) {
 
 
 // Exercicio 4 //
+
 
 let escolhaDeNumero = parseFloat(prompt("Digite um numero"));
 
@@ -102,12 +105,12 @@ let convercaoReal = dolar * cotacaoDolar;
 
 alert(`${new Intl.NumberFormat("en-US", {style: "currency", currency: "USD"}).format(dolar)
         } é equivalente a ${new Intl.NumberFormat("pt-br", {style: "currency", currency: "BRL"}).format(convercaoReal)
-        } tendo ${cotacaoDolar} como cotação.`);
+        } tendo ${cotacaoDolar} como cotação.`); */
 
 
 // Execicio 8 incompleto nao entendi muito bem //
 
-
+/*
 let tipo1 = 50;
 let tipo2 = 100;
 let tipo3 = 150;
@@ -115,34 +118,29 @@ let tipo4 = 250;
 let acre = 1;
 let escolhaDetipo = parseInt(prompt("Escolha um tipo de 1 a 4."));
 let escolhaEAcre = parseInt(prompt("Escolha a quantidade de acre."));
-
-if (escolhaDetipo === 1) {
-    return tipo1
-} else if (escolhaDetipo === 2) {
-    return tipo2
-} else if (escolhaDetipo === 3) {
-    return tipo3
-} else if (escolhaDetipo === 4) {
-    return tipo4
-} else {
-    alert(`tipo de praga inválida escolha um numero de 1 a 4!`)
-};
-
-if (escolhaEAcre >= 1000){
-    return escolhaEAcre * 95 / 100
-};
-
-alert(`O valor ser pago é de: ${escolhaDetipo * escolhaEAcre}`);
+*/
 
 // Exercicio 9 //
 
 
-let tempo = parseInt(prompt("Digite o tempo da viagem"));
+/* let tempo = parseInt(prompt("Digite o tempo da viagem"));
 let velocidade = parseInt(prompt("Digite a velocidade percorrida na viagem"));
 let distancia = tempo * velocidade;
 let litroUsados = distancia / 12;
 
-alert(`Seu veículo percorreu ${distancia} km a ${velocidade} km/h em ${tempo}h de viagem e consumiu ${litroUsados.toFixed(2)}l de gasolina`);
+alert(`Seu veículo percorreu ${distancia} km a ${velocidade} km/h em ${tempo}h de viagem e consumiu ${litroUsados.toFixed(2)}l de gasolina`); 
 
 
-// Exercicio 10 incompleto //
+// Exercicio 10 incompleto colocar decimais como incorreta //
+
+
+let valor = parseInt(prompt("Digite o valor"));
+let taxa = parseInt(prompt("Digite o valor da taxa"));
+let tempoDeAtraso = parseInt(prompt("Digite o tempo de atraso"));
+let prestacao = valor + (valor * (taxa/100) * tempoDeAtraso);
+
+if (tempoDeAtraso === 0){
+    alert(`Valor inválido o tempo de atraso deve ser em dias.`)
+} else {
+    alert(`${new Intl.NumberFormat("pt-br", {style: "currency", currency: "BRL"}).format(prestacao)}`)
+};*/
