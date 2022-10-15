@@ -1,6 +1,6 @@
 // Exercicio 1 //
 
-/* 
+
 let numeroInteiro1 = parseInt(prompt("Digite um numero inteiro"));
 let numeroInteiro2 = parseInt(prompt("Digite outro numero inteiro"));
 let diferencaEntreOsNumeros = numeroInteiro1 - numeroInteiro2;
@@ -105,7 +105,7 @@ let convercaoReal = dolar * cotacaoDolar;
 
 alert(`${new Intl.NumberFormat("en-US", {style: "currency", currency: "USD"}).format(dolar)
         } é equivalente a ${new Intl.NumberFormat("pt-br", {style: "currency", currency: "BRL"}).format(convercaoReal)
-        } tendo ${cotacaoDolar} como cotação.`); */
+        } tendo ${cotacaoDolar} como cotação.`); 
 
 
 // Execicio 8 incompleto nao entendi muito bem //
@@ -123,7 +123,7 @@ let escolhaEAcre = parseInt(prompt("Escolha a quantidade de acre."));
 // Exercicio 9 //
 
 
-/* let tempo = parseInt(prompt("Digite o tempo da viagem"));
+let tempo = parseInt(prompt("Digite o tempo da viagem"));
 let velocidade = parseInt(prompt("Digite a velocidade percorrida na viagem"));
 let distancia = tempo * velocidade;
 let litroUsados = distancia / 12;
@@ -143,4 +143,4 @@ if (tempoDeAtraso === 0){
     alert(`Valor inválido o tempo de atraso deve ser em dias.`)
 } else {
     alert(`${new Intl.NumberFormat("pt-br", {style: "currency", currency: "BRL"}).format(prestacao)}`)
-};*/
+};
